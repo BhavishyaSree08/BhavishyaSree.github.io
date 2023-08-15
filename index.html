@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+
+    <script src="main.js"></script>
+</head>
+
+<body bgcolor="black" >
+<center>
+        <h1>Calculator</h1>
+        <form name ="form1">
+            <table>
+                <tr>
+                    <td><input type="text" name="box"></td>
+                </tr>
+                
+
+
+
+                <tr>
+                    <td><button type="button" class="button" onclick="form1.box.value+='7'">7</button>
+                        <button type="button" class="button" onclick="form1.box.value+='8'">8</button>
+                        <button type="button" class="button" onclick="form1.box.value+='9'">9</button>
+                        <button type="button" class="button" onclick="form1.box.value+='+'">+</button>
+                        <button type="button" class="button" onclick="form1.box.value+='*'">*</button>
+                        <button type="button" class="button" onclick="form1.box.value+='('">(</button>
+                         </td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" class="button" onclick="form1.box.value+='4'">4</button>
+                        <button type="button" class="button" onclick="form1.box.value+='5'">5</button>
+                        <button type="button" class="button" onclick="form1.box.value+='6'">6</button>
+                        <button type="button" class="button" onclick="form1.box.value+='-'">-</button>
+                        <button type="button" class="button" onclick="form1.box.value+='/'">/</button>
+                        <button type="button" class="button" onclick="form1.box.value+=')'">)</button>
+                         </td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" class="button" onclick="form1.box.value+='1'">1</button>
+                        <button type="button" class="button" onclick="form1.box.value+='2'">2</button>
+                        <button type="button" class="button" onclick="form1.box.value+='3'">3</button>
+                        <button type="button" class="button" onclick="form1.box.value+='0'">0</button>
+                        <button type="button" class="button" onclick="form1.box.value+='.'">.</button>
+                        <button type="button" class="button" onclick="form1.box.value+='%'">%</button>
+                         </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        
+                        <button type="button" class="buttonlast" onclick="form1.box.value=eval(form1.box.value)">=</button>
+                        <button type="btn-special" class="buttonlast" onclick="form1.box.value+=ac">ac</button>
+                        
+                     </td>
+                </tr>
+
+            </table>
+        </form>
+    
+    
+</body>
+</html>
